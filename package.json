@@ -1,0 +1,36 @@
+{
+  "name": "noradle-console",
+  "version": "0.13.0",
+  "description": "monitor/controller console for noradle runtime, include dispatcher, clients, oracle",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:noradle/noradle-console.git"
+  },
+  "keywords": [
+    "monitor",
+    "controller",
+    "console",
+    "runtime",
+    "dispatcher",
+    "status"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "debug": "~2.1.1",
+    "dnode": "^1.2.1",
+    "noradle-protocol": "^0.13.0"
+  },
+  "author": "kaven276@vip.sina.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noradle/noradle-console/issues"
+  },
+  "homepage": "https://github.com/noradle/noradle-console"
+}
