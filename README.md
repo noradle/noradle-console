@@ -16,10 +16,10 @@ Options:
 
   -h, --help                         output usage information
   -V, --version                      output the version number
-  -d, --dispatcher_addr [port:host]  dispatcher listening address
-  -p, --listen_port [port]           listening port
+  -d, --dispatcher_addr [port:host]  dispatcher listening address, default to 1520
+  -p, --listen_port [port]           listening port, default to 1522:
   
-noradle-console -p 1522 -d 9009:  
+noradle-console -p 1520 -d 1522:
 ```
 
 watch noradle runtime state in browser
