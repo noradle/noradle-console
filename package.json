@@ -1,6 +1,6 @@
 {
   "name": "noradle-console",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "monitor/controll console for noradle runtime, include dispatcher, clients, oracle",
   "main": "server.js",
   "scripts": {
