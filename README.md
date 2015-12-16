@@ -20,6 +20,9 @@ Options:
   -p, --listen_port [port]           listening port, default to 1522:
   
 noradle-console -p 1520 -d 1522:
+
+pm2 start noradle-console -- -p 1520 -d 1522
+
 ```
 
 watch noradle runtime state in browser
