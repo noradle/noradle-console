@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "server.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:noradle/noradle-console.git"
